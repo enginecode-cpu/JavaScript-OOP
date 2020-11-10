@@ -9,6 +9,7 @@ Game.prototype.sum = function() {
 
 // GamePlus.prototype.__proto__ = Game.prototype;
 GamePlus.prototype = Object.create(Game.prototype);
+GamePlus.prototype.constructor = GamePlus
 
 function GamePlus(name, firstScore, secondScore, thirdScore) {
   Game.call(this, name, firstScore, secondScore);
