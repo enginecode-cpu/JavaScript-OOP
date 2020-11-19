@@ -42,7 +42,7 @@ header h1 {
 header .side-menu {
   width: 120px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 header .side-menu button {
   color: #ecf0f1;
