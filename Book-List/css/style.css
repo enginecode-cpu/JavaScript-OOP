@@ -49,6 +49,7 @@ header .side-menu button {
   background-color: #24292e;
   border: none;
   outline: none;
+  font-size: 14px;
 }
 
 /* main */
